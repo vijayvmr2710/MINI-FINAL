@@ -1,0 +1,83 @@
+ 
+.body{
+  background-color: black;
+}
+.card.card-title{
+  display: flex;
+  justify-content: center;
+
+}
+.btn .btn-primary{
+ position: relative;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gpt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -800px;
+}
+.tilte{
+  color:white ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 00px;
+  font-size: 50px;
+  font-weight: 700;
+  
+}
+
+.menu-icon {
+  display: none;
+}
+.sidebar {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #353740;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.open-menu {
+  display: block;
+}
+@media (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .open-menu {
+    display: none;
+  }
+}
